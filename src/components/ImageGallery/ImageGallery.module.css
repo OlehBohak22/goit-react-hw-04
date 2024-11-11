@@ -1,0 +1,10 @@
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1vw;
+
+  li {
+    flex-basis: calc((100% - 2 * 1vw) / 3);
+    aspect-ratio: 1;
+  }
+}
