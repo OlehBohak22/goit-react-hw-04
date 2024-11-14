@@ -3,7 +3,7 @@ import s from "./ImageGallery.module.css";
 
 export default function ImageGallery({ images, openModal }) {
   return (
-    <ul>
+    <ul className={s.list}>
       {images.map((image) => (
         <li
           onClick={() => {

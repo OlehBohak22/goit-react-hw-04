@@ -11,10 +11,10 @@ export default function SearchBar({ onSubmit }) {
   }
 
   return (
-    <header>
+    <header className={s.header}>
       <Formik onSubmit={handleSubmit} initialValues={initialValues}>
         {() => (
-          <Form>
+          <Form className={s.form}>
             <Field
               name="searchBar"
               type="text"
