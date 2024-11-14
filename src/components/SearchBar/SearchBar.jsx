@@ -1,4 +1,5 @@
 import { Form, Formik, Field } from "formik";
+import s from "./SearchBar.module.css";
 
 export default function SearchBar({ onSubmit }) {
   const initialValues = {

@@ -22,7 +22,7 @@ function App() {
     async function fetchImages() {
       try {
         setLoader(true);
-        setError(false); // Скидаємо помилку перед новим запитом
+        setError(false);
 
         const items = await fetchImagesWithTopic(topic, page);
 

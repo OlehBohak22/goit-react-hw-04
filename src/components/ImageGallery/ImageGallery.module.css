@@ -4,7 +4,7 @@ ul {
   gap: 1vw;
 
   li {
-    flex-basis: calc((100% - 2 * 1vw) / 3);
+    flex-basis: calc((100% - 3 * 1vw) / 4);
     aspect-ratio: 1;
   }
 }
